@@ -2,14 +2,6 @@
 
 Determine Network lag between SQL Host and Client
 
-### Build Image
-
-    docker build . -t jeffbeagley/mssql_network_latency:1.0.0
-
-### Push Image
-
-    docker push jeffbeagley/mssql_network_latency:1.0.0
-
 ## Example usage
 
     docker run -it \
